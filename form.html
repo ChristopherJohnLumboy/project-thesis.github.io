@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form name="employment" action="send.php" method="post">
+        <table width="600" cellspacing="2" cellpadding="2" border="2">
+            <tr>
+                <td>Employment Application</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>First Name</td>
+                <td><input type="text" name="fname" maxlength="50"/> </td>
+            </tr>
+
+            <tr>
+                <td>Last Name</td>
+                <td><input type="text" name="lname" maxlength="50"/></td>
+            </tr>
+            <tr>
+                <td>Posistion </td>
+                <td>
+                    <select name="position">
+                        <option value="ac">Accountant</option>
+                        <option value="re">Receptionist</option>
+                        <option value="ad">Administrator</option>
+                        <option value="su">Supervisor</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Expirience Level</td>
+                <td>
+                    <select name="expirience">
+                        <option value="EL">Entry Level</option>
+                        <option value="SE">Some Expirience</option>
+                        <option value="VE">Very Expirienced</option>
+
+                    </select>
+                </td>
+
+            </tr>
+            <tr>
+                <td>Job Type</td>
+                <td>
+                    <input type="checkbox" name="ft"/> Fulltime     
+                    <input type="checkbox" name="pt"/> Part Time
+                    <input type="checkbox" name="ct"/> Contract         
+                 </td>
+            </tr>
+            <tr>
+                <td>Employment Status</td>
+                <td>
+                    <input type="radio" name="estatus" value="employed"/> Employed
+                    <input type="radio" name="estatus" value="unemployed"/> Unemployed
+                    <input type="radio" name="estatus" value="student"/> Student
+
+
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Additional Comments
+                </td>
+                <td>
+
+                    <textarea name="comments" cols="45" rows="5"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td> <input type="submit" name="submit" value="submit"/> <input type="reset" name="reset" value="reset"/></td>
+            </tr>
+
+        </table>
+
+    </form>
+</body>
+</html>

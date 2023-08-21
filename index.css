@@ -1,0 +1,114 @@
+
+html{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    font: 10 Roboto,arial,sans-serfi;
+    background: url("drstone.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  
+    
+   
+}
+
+
+
+td{
+    border: none;
+    cursor: pointer;
+    
+}
+
+input{
+    width: 90%;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+input[name = "display"]{
+    width: fit-content;
+    height: 50px;
+	text-align: right;
+	color: rgba(0, 0, 0, 0.7);
+    border: 2px solid #fca311;
+    background-color: transparent;
+    font-size: 20px;
+
+    
+
+}
+
+input[name = "submit"]{
+    background-color:#0e2433;
+    color: #fd7702;
+    
+}
+
+input[name = "equals"]{
+    background-color: #14213d;
+    color: #fd7702;
+    
+    
+}
+
+input[name = "op"]{
+    background-color: #1c4955;
+    color: #fd7702;
+    
+}
+
+input[name = "delete"]{
+    background-color:#14213d;
+    color: #fd7702;
+
+}
+
+.btn{
+    cursor: pointer;
+    border: 2px solid #ff5003;
+    background: none;
+    height: 40px;
+    width: 50px;
+    box-shadow: 7px 6px 28px 1px rgba(0, 0, 0, 0.24);
+    transition: 0.2s all;
+}
+
+input[name = "submit"].btn:hover{
+    background-color: #ff8e00;
+    color: black;
+}
+
+input[name = "op"].btn:hover{
+    background-color: #ff8e00;
+    color: black;
+}
+
+input[name = "delete"].btn:hover{
+    background-color:red;
+    color: black;
+}
+
+input[name = "equals"].btn:hover{
+    background-color:#ff8e00;
+    color: black;
+}
+
+table{
+    background-color: transparent;
+    border: 2px solid #ff5003;
+}
+
+.btn:active{
+    transform: scale(0.80);
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+}

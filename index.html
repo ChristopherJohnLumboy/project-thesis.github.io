@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="with=device-width, initial-scale = 1.0">
+  <link rel="icon" href="icon32.png" type="image/icon">
+  <title>Midterm-Home</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .header {
+      min-height: 100vh;
+      width: 100%;
+      background-image: url(308644709_824350365502259_9043741589138628044_n.png);
+      background-position: center;
+      background-size: cover;
+      position: sticky;
+
+    }
+  </style>
+
+
+</head>
+
+<!-- all of the pictures and logo are edited by xyril lance sarmiento -->
+
+<body>
+  <!--Tolentino Dei Joshua -->
+  <div class="header">
+    <div class="navbar">
+      <img src="logo.png" class="logo">
+
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+
+    </div>
+    <br>
+    <div class="content">
+      <h1>Portable Solar Powered Air Conditioning System using Peltier Cells</h1>
+
+
+    </div>
+  </div>
+  <br>
+  <section>
+    <!--Lumboy, Christopher John D. -->
+    <div>
+      <br>
+      <br>
+      <!-- The grid: four columns -->
+      <div style="text-align:center">
+        <h2>Materials and Diagrams of the Device</h2>
+        <p>Click on the images below:</p>
+      </div>
+
+      <!-- The four columns -->
+      <div class="row">
+        <div class="column">
+          <img src="solarpanels_small.png" alt="Solar Panels" style="width:50%" onclick="myFunction(this);">
+        </div>
+        <div class="column">
+          <img src="how-to-design-a-peltier-module-figure-4.jpg" alt="How Peltier Works" style="width:50%"
+            onclick="myFunction(this);">
+        </div>
+        <div class="column">
+          <img src="Air Conditioning System Diagram.png" alt="Air conditioning System Diagram" style="width:50%"
+            onclick="myFunction(this);">
+        </div>
+        <div class="column">
+          <img src="dp21999.jpg" alt="Peltier cell" style="width:50%" onclick="myFunction(this);">
+        </div>
+      </div>
+      <!-- Xyril lance sarmiento -->
+      <div class="container">
+        <div onclick="this.parentElement.style.display='none'" class="close">&times;</div>
+        <img id="expandedImg" style="width:100%">
+        <div id="imgtext"></div>
+      </div>
+  </section>
+  <br>
+  <br>
+  <br>
+  <br>
+  <section>
+    <div>
+      <h2> Introduction</h2>
+      <p id="p1"> The Philippines has been impacted by climate change in a variety of ways, and these effects can be
+        observed as the phenomenon continues to accelerate. The measured temperature in the Philippines has risen by
+        0.68 degrees Celsius over the course of the past 65 years, from 1951 to 2015; this represents an increase of 0.1
+        degrees Celsius every decade on average. By the middle of the 21st century, it is anticipated that the average
+        temperature in the Philippines may have increased by anywhere from 0.9 degrees Celsius to 1.9 degrees Celsius
+        (according to RCP 4.5) or by 1.2 degrees Celsius to 2.3 degrees Celsius (according to RCP8.5). The population,
+        particularly those who live in places with poor ventilation or in metropolitan areas, are feeling the effects of
+        this rising warmth.
+      </p>
+      <br>
+      <p id="p1">
+        Extreme heat can put people at risk for a variety of ailments, including heatstroke, heat exhaustion,
+        hyperthermia, and others. If there is technology that can bring the temperature down in the room, then these
+        difficulties can be avoided. There are a variety of home appliances that can be used to cool down a room, such
+        as electric fans, air conditioners, air coolers, and so on; however, most of these solutions require the use of
+        electricity, which frequently requires the burning of fossil fuels and thus contributes to global warming.
+      </p>
+      <br>
+      <p id="p1">
+        Researchers have developed the concept of an air conditioner that makes use of Peltier cells as the cooler as a
+        solution to the issues that have been raised. The use of an electrical current in a device known as a Peltier
+        cell results in the production of a cold temperature. The researcher is going to combine a solar power system
+        with a cooling system that makes use of Peltier cells so that they may construct an air conditioning system that
+        is driven by solar energy.
+      </p>
+      <br>
+      <p id="p1">
+        This device will get its electricity from the sun in order to function properly. The resources of this device
+        will be managed by a microcontroller, which will be utilized by this device. The purpose of the system is to
+        bring the temperature of a confined space down to a more tolerable level in order to create a more comfortable
+        environment in areas that have a high temperature and no ventilation.
+      </p>
+
+
+  </section>
+  <br>
+  <br>
+  <br>
+  <br>
+  <section>
+    <div>
+      <h2> Statement of the Problem</h2>
+      <p id="p1">Since the pre-industrial period, humans observed long-term heating in the surface of the earth. this
+        phenomenon is called global warming. Due to global warming, we experience hotter temperature than the last
+        decade. based on an article entitled PH Reaches Highest Heat Index So Far This Year at 53 Degrees Celsius
+        (Coconuts Manila, 2022) that this year the hottest recorded temperature are 53 degrees Celsius in Dagupan,
+        Pangasinan. These increasing temperatures are detrimental to people with old age and people that lives in urban
+        areas or houses without proper ventilation. This research aims to answer the following questions: </p>
+
+
+      <a class="center">
+        <br>
+        <ol>
+
+          <li>How to design an air conditioning system that will use Peltier cell?</li>
+          <li>How to integrate solar panel to power the device?</li>
+          <li>How to develop a software that will control the functions of the air conditioning?</li>
+          <li>How will the researchers test the capabilities of the device?</li>
+          <li> How will the researchers evaluate the effectiveness of solar powered air conditioning?</li>
+        </ol>
+
+      </a>
+
+    </div>
+  </section>
+  <br>
+  <br>
+  <br>
+  <br>
+  <!-- Lumboy, Christopher John D. -->
+  <section>
+    <h2> Significance of the Study</h2>
+
+    <div class="slideshow-container">
+
+      <!-- Full-width images with number and caption text -->
+      <div class="mySlides fade">
+        <div class="numbertext">1 / 4</div>
+        <img src="st.png" style="width:100%">
+
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">2 / 4</div>
+        <img src="con.png" style="width:100%">
+
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">3 / 4</div>
+        <img src="com.png" style="width:100%">
+
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">4 / 4</div>
+        <img src="fr.png" style="width:100%">
+
+      </div>
+
+
+
+      <!-- Next and previous buttons -->
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <br>
+
+    <!-- The dots/circles -->
+    <div style="text-align:center">
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+      <span class="dot" onclick="currentSlide(3)"></span>
+      <span class="dot" onclick="currentSlide(4)"></span>
+
+    </div>
+
+    <script src="script.js"></script>
+    <!---------------------------------------------------------------------->
+  </section>
+
+  <br> <br>
+  <br>
+  <br>
+  <br>
+</body>
+
+
+</html>
